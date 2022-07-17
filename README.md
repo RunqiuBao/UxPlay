@@ -1,3 +1,25 @@
+## How to install (2022-07-17):
+- Install dependencies:
+```
+sudo apt-get install libssl-dev libavahi-compat-libdnssd-dev 
+libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev gstreamer1.0-libav gstreamer1.0-plugins-bad
+libplist-dev
+```
+- Build:
+```
+mkdir build
+cd build
+cmake ..
+make
+```
+- Start server:
+```
+./uxplay
+```
+- Connect in the iphone: <br>
+Open your iPhone / iPad and tap the “Screen Mirror” option from the control center ( swipe down from the upper right corner in recent devices or swipe from the bottom edge in older devices) and select “uxplay” in the menu.
+----------------------------------------------------------------------------------------------------------------------------------------
+
 # UxPlay 1.55:  AirPlay-Mirror and AirPlay-Audio server for Linux, macOS, and Unix.
 
 ### Now developed at the GitHub site [https://github.com/FDH2/UxPlay](https://github.com/FDH2/UxPlay) (where all user issues should be posted).
